@@ -1,0 +1,115 @@
+doctype html
+html
+  head
+    title lsharp DB
+    link href="css/bootstrap-theme.css" type="text/css" rel="stylesheet"
+    link href="css/bootstrap.css" type="text/css" rel="stylesheet"
+    link href="css/screen.css" media="screen, projection" rel="stylesheet" type="text/css"
+    link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"
+
+  body
+    #championModal
+      #myModal.modal.fade abindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"
+        .modal-dialog
+          .modal-content
+            .modal-header
+              button.close type="button" data-dismiss="modal" aria-label="Close"
+                span aria-hidden="true" &times;
+              h4#championModalLabel.modal-title Modal title
+            .modal-body
+              .container-fluid
+                #championScripts.row
+                  .scriptWrapper.col-sm-12.alert-success
+                    .row
+                      .col-sm-10
+                        h4.scriptName JinxOneKeyToWin
+                      .scriptUpvotes.col-sm-2
+                        h4
+                          span.badge <i class="fa fa-arrow-up"></i> 203
+                    .row
+                      .col-sm-6
+                        p.scriptAuthor MartinEU
+                    .row
+                      .scriptControls.col-sm-6
+                        a.btn-sm.btn-primary href="#" Github
+                        a.btn-sm.btn-primary href="#" Install
+                        a.btn-sm.btn-primary href="#" Forum
+                      .scriptVoting.col-sm-6
+                        a.btn-sm.btn-danger href="#" <i class="fa fa-arrow-down"></i>
+                        a.btn-sm.btn-success href="#" <i class="fa fa-arrow-up"></i>
+            .modal-footer
+              button.btn.btn-primary type="button" data-dismiss="modal" Close
+
+    nav.navbar.navbar-default
+      .container
+        .row
+          .navbar-header
+            a.navbar-brand href="#"
+              img alt="LSDB" src="http://lsharpdb.com/media/img/logo_lsharpdb.png"
+            button.navbar-toggle.collapsed data-target="#bs-example-navbar-collapse-1" data-toggle="collapse" type="button"
+              span.sr-only Toggle navigation
+              span.icon-bar
+              span.icon-bar
+              span.icon-bar
+          #bs-example-navbar-collapse-1.collapse.navbar-collapse
+            ul.nav.navbar-nav
+              li.active
+                a href="#"
+                  | Champions
+              li
+                a href="#"
+                  | Other
+              li
+                a href="#"
+                  | Missing Assembly?
+            form.navbar-form.navbar-right role="search"
+              .form-group
+                input.form-control placeholder="Search" type="text"
+    .container
+      .row
+        #options.navbar.navbar-default
+          .navbar-header
+            button.navbar-toggle.collapsed data-target="#bs-example-navbar-collapse-2" data-toggle="collapse" type="button"
+              span.sr-only Toggle navigation
+              span.icon-bar
+              span.icon-bar
+              span.icon-bar
+          #bs-example-navbar-collapse-2.collapse.navbar-collapse
+            ul.nav.navbar-nav.navbar-right
+              li.dropdown
+                a.dropdown-toggle aria-expanded="false" data-toggle="dropdown" href="#" role="button"
+                  | Filter
+                  span.caret
+                ul.dropdown-menu role="menu"
+                  li
+                    a href="#"  Assassin
+                  li
+                    a href="#"  Fighter
+                  li
+                    a href="#"  Mage
+                  li
+                    a href="#"  Marksman
+                  li
+                    a href="#"  Support
+                  li
+                    a href="#"  Tank
+              li.dropdown
+                a.dropdown-toggle aria-expanded="false" data-toggle="dropdown" href="#" role="button"
+                  | Order
+                  span.caret
+                ul.dropdown-menu role="menu"
+                  li
+                    a href="#"  Last Commit
+                  li
+                    a href="#"  Upvotes
+                  li
+                    a href="#"  Comments
+
+    #championGrid.container
+      #championRow.row
+
+
+
+    script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"
+    script src="js/bootstrap.js"
+    script src="js/fancy.js"

@@ -1,0 +1,65 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 64, icons/*.png */
+.icons-sprite, .icons-accept, .icons-close, .icons-plus {
+  background-image: url('../img/icons-s791a4c47dc.png');
+  background-repeat: no-repeat;
+}
+
+/* line 84, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-accept {
+  background-position: 0 0;
+  height: 16px;
+  width: 16px;
+}
+
+/* line 84, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-close {
+  background-position: 0 -16px;
+  height: 16px;
+  width: 16px;
+}
+
+/* line 84, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-plus {
+  background-position: 0 -32px;
+  height: 16px;
+  width: 16px;
+}
+
+/* line 12, ../../scss/screen.scss */
+body {
+  background: teal;
+}
+
+/* line 13, ../../scss/screen.scss */
+.icons {
+  display: inline-block;
+}
+
+/* line 15, ../../scss/screen.scss */
+p {
+  border-radius: 40%;
+}
+
+/* line 19, ../../scss/screen.scss */
+:-webkit-full-screen a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+:-moz-full-screen a {
+  display: flex;
+}
+:-ms-fullscreen a {
+  display: -ms-flexbox;
+  display: flex;
+}
+:fullscreen a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
