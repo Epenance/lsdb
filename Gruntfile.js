@@ -14,7 +14,7 @@ module.exports = function(grunt) {
           cwd: 'slim',
           src: ['{,*/}*.slim'],
           dest: 'www',
-          ext: '.html'
+          ext: '.php'
         }]
       }
     },

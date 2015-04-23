@@ -64,7 +64,7 @@
       <div class="container">
         <div class="row">
           <div class="navbar-header">
-            <a class="navbar-brand" href="#"><img alt="LSDB" src="http://lsharpdb.com/media/img/logo_lsharpdb.png" /></a><button class="navbar-toggle collapsed" data-target="#bs-example-navbar-collapse-1" data-toggle="collapse" type="button"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+            <a class="navbar-brand" href="#"><img alt="LSDB" src="img/logo.png" /></a><button class="navbar-toggle collapsed" data-target="#bs-example-navbar-collapse-1" data-toggle="collapse" type="button"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
           </div>
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
@@ -75,7 +75,7 @@
                 <a href="#">Other</a>
               </li>
               <li>
-                <a href="#">Missing Assembly?</a>
+                <a href="mailto:lsdb@dosh.dk">Missing Assembly?</a>
               </li>
             </ul>
             <form class="navbar-form navbar-right" role="search">
